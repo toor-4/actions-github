@@ -1,0 +1,11 @@
+# A basic workflow to help you get started with actions
+
+name: A Basic Workflow
+
+# Contols when the workflow will run
+on: 
+  Triggers the workfloe on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull request:
+    branches> [ "main" ]
